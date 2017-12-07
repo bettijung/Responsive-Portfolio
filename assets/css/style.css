@@ -1,0 +1,612 @@
+/*Stylesheet for index.html*/
+
+/*General Styling=========================*/
+/*========================================*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Helvetica Neue', 'Arial', Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 32px;
+	height: 100%;
+	color: #777777;
+	margin: 0 auto;
+	background-image: url(http://1.bp.blogspot.com/-zdNHn72sED4/UPc5aB0f7FI/AAAAAAAAENo/9qOjODTYL6M/s1600/subtle_light_gray_background.jpg);
+	background-attachment: fixed;
+	/*width: 960px;*/
+}
+
+/*Header==================================*/
+/*========================================*/
+
+.header-bar {
+	width: 100%;
+	height: 70px;
+	position: relative;
+	display: inline-block;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	border-top: 2px solid #cccccc;
+}
+
+
+.header-bar h1 {
+	background-color: #4aaaa5;
+	font-weight: 600;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #fff;
+	font-size: 24px;
+	margin-left: 120px;
+	margin-top: -25px;
+	padding: 18px;
+	padding-left: 25px;
+	padding-right: 25px;
+	position: absolute;
+}
+
+.header-about {
+	color: #777777;
+	position: absolute;
+	margin-left: 810px;
+	padding-right: 15px;
+	text-decoration: none;
+	font-size: 13px;
+	border-right: 2px solid;
+	border-color: #dddddd;
+	border-width: thin;
+	line-height: 100%;
+}
+
+.header-about:hover {
+	text-decoration: underline;
+	color: #A1DDD9;
+	cursor: pointer;
+}
+
+
+.header-portfolio {
+	color: #777777;
+	position: absolute;
+	margin-left: 875px;
+	padding-right: 15px;
+	text-decoration: none;
+	font-size: 13px;
+	border-right: 2px solid;
+	border-color: #dddddd;
+	border-width: thin;
+	line-height: 100%;
+}
+
+.header-portfolio:hover {
+	text-decoration: underline;
+	color: #A1DDD9;
+	cursor: pointer;
+}
+
+.header-contact {
+	color: #777777;
+	position: absolute;
+	margin-left: 950px;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 100%;
+}
+
+.header-contact:hover {
+	text-decoration: underline;
+	color: #A1DDD9;
+	cursor: pointer;
+}
+
+/*Main====================================*/
+/*========================================*/
+
+.body-info {
+	position: absolute;
+	color: #777777;
+	background-color: #fff;
+	width: 650px;
+	float: left;
+	margin-left: 120px;
+	margin-right: 30px;
+	margin-top: 25px;
+	margin-bottom: 100px;
+	padding-left: 25px;
+	border: 1px solid #dddddd;
+}
+
+.body-info h1 {
+	font font-weight: 400;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 22px;
+	padding-bottom: 0px;
+	padding-top: 10px;
+	font-weight: 600;
+}
+
+.body-info p {
+	font-size: 14px;
+	color: #777777;
+	margin-right: 25px;
+}
+
+.body-info img {
+	float: left;
+	width: 170px;
+	padding-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.body-info hr {
+	color: #cccccc;
+	margin-right: 20px;
+	border-width: 1px;
+	border-style: solid;
+}
+
+/*Aside===================================*/
+/*========================================*/
+
+.connect-with-me {
+	width: 210px;
+	background-color: #fff;
+	float: left;
+	position: absolute;
+	padding: px;
+	margin: 20px;
+	margin-top: 25px;
+	margin-left: 800px;
+	padding-bottom: 15px;
+}
+
+.connect-with-me h3 {
+	font-weight: 600;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 18px;
+	margin-top: 15px; 
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+.connect-with-me hr {
+	color: #dddddd;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	border-width: 0.75px;
+	border-style: solid;
+}
+
+#gitHubImage {
+	text-decoration: none;
+}
+
+#gitHubImage img {
+	width: 55px;
+	margin-left: 20px;
+}
+
+#gitHubImage img:hover {
+	border: 2px solid lightgrey;
+	transform: rotate(-10deg);
+	cursor: pointer;
+}
+
+#linkedInImage {
+	text-decoration: none;
+}
+
+#linkedInImage img {
+	width: 55px;
+}
+
+#linkedInImage img:hover {
+	border: 2px solid lightgrey;
+	transform: rotate(-10deg);
+	cursor: pointer;
+}
+
+#stackOverflowImage {
+	text-decoration: none;
+}
+
+#stackOverflowImage img {
+	width: 50px;
+	margin-bottom: 3px;
+}
+
+#stackOverflowImage img:hover {
+	border: 2px solid lightgrey;
+	width: 55px;
+	padding: 3px;
+	margin-bottom: 0px;
+	transform: rotate(-10deg);
+	cursor: pointer;
+}
+
+/*Contact(only on contact.html)===========*/
+/*========================================*/
+.contact-section {
+	position: absolute;
+	color: #777777;
+	background-color: #fff;
+	width: 650px;
+	float: left;
+	margin-left: 120px;
+	margin-right: 30px;
+	margin-top: 25px;
+	margin-bottom: 100px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 15px;
+	border: 1px solid #dddddd;
+}
+
+.contact-section h1 {
+	font-weight: 600;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 22px;
+	padding-bottom: 0px;
+	padding-top: 10px;
+}
+
+.contact-section hr {
+	color: #cccccc;
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+}
+
+#name {
+	width: 100%;
+	height: 30px;
+	border: 1.5px #dddddd solid;
+}
+
+#guestEmail {
+	width: 100%;
+	height: 30px;
+	border: 1.5px #dddddd solid;
+}
+
+#guestMessage {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 0px;
+	border: 1.5px #dddddd solid;
+}
+
+#submitButton {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	font-size: 14px;
+}
+
+#submitButton:hover {
+	    opacity:.7;
+	}
+
+/*Portfolio(only on portfolio.html)=======*/
+/*========================================*/
+
+.portfolio-section {
+	position: absolute;
+	color: #777777;
+	background-color: #fff;
+	width: 650px;
+	height: 100%;
+	float: left;
+	margin-left: 120px;
+	margin-right: 30px;
+	margin-top: 25px;
+	margin-bottom: 100px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 15px;
+	border: 1px solid #dddddd;
+}
+
+.clearfix:after {
+	display: block;
+	clear: both;
+	content: " ";
+}
+
+.portfolio-section h1 {
+	font-weight: 600;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 22px;
+	padding-bottom: 0px;
+	padding-top: 10px;
+}
+
+.portfolio-section hr {
+	color: #cccccc;
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	margin-bottom: 20px;
+}
+
+.portfolio-image-1 {
+	text-decoration: none;
+	position: relative;
+	width: 49%;
+	z-index: 1;
+	float: left;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.portfolio-image-2 {
+	text-decoration: none;
+	position: relative;
+	width: 49%;
+	z-index: 1;
+	float: left;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.portfolio-image-3 {
+	text-decoration: none;
+	position: relative;
+	width: 49%;
+	z-index: 1;
+	float: left;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.portfolio-section p {
+	z-index: 2;
+	background-color: #4aaaa5;
+	padding: 10px;
+	color: white;
+	width: 75%;
+	position: absolute;
+	top: 100px;
+	left:0;
+	text-align: center;
+}
+
+/*Footer==================================*/
+/*========================================*/
+
+.footer {
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #666666;
+	border-top: 5px solid #4aaaa5;
+}
+
+.footer, .pageWrap:after {
+	height: 70px;
+}
+
+.footer p {
+	text-align: center;
+	color: lightgrey;
+	font-size: 11px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+
+
+/*Media Queries===========================*/
+/*========================================*/
+
+/*These rules take effect when the browser's width
+  is between 980px and 769px.================*/
+
+@media screen and (max-width: 980px) {
+
+	#image-row img{
+		width: 100%;
+		margin: 10px 5px;
+		position: relative;
+	}
+
+	.clearfix {
+		clear: both;
+	}
+
+	.image-label {
+		width: 90%;
+		position: absolute;
+		top: 60%;
+		margin-left: 5px;
+	}
+}
+	
+
+/*These rules take effect when the browser's width
+  is between 768px and 641px.================*/
+
+@media screen and (max-width: 768px) {
+
+	#navbar-title {
+		margin-left: 5px;
+	}
+
+	#header-links {
+		margin-right: 0px;
+	}
+
+	#bio-image {
+		width: 50%;
+		float: left;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		margin-right: 5px;
+	}
+
+	.main-section-text {
+		
+	}
+	
+	.connect-with-me .connect-body .img-responsive {
+		width: 10%;
+		float: left;
+		padding: 2px;
+	}
+
+ 	.connect-with-me .connect-body .github-image {
+ 		width: 9%;
+ 	}
+
+	 .connect-with-me .connect-body .github-image:hover {
+		width: 10%;
+		padding: 5px;
+		margin-top: 1px;
+	}
+
+	#image-row img{
+		width: 45%;
+		margin: 10px 5px;
+		position: relative;
+		float: left;
+	}
+
+	.image-label {
+		width: 43%;
+		margin-left: 5px;
+	}
+}
+
+/*These rules take effect when the browser's width
+  is either 640px or less.================*/
+
+@media screen and (max-width: 640px) {
+
+	.header-bar {
+	width: 100%;
+	height: 10%;
+	position: fixed;
+	margin-bottom: 50px;
+	z-index: 3;
+}
+
+	.header-bar h1 {
+		width: 100%;
+		margin-left: 0px;
+		text-align: center;
+}
+
+	.header-links {
+		width: 100%;
+		height: 45px;
+		z-index: 3;
+		position: absolute;
+		display: inline-block;
+		background-color: #ffffff;
+		margin-top: 30px;
+	}
+
+	.header-about {
+		position: absolute;
+		margin-left: 70px;
+		margin-top: 20px;
+		padding-right: 15px;
+	}
+
+	.header-portfolio {
+		position: absolute;
+		margin-left: 180px;
+		margin-top: 20px;
+		padding-right: 15px;
+	}
+
+	.header-contact {
+		position: absolute;
+		margin-left: 300px;
+		margin-top: 20px;
+		padding-right: 15px;
+	}
+
+	.body-info {
+		display: block;
+		width: 100%;
+		margin: 10px;
+
+	}
+
+	.body-info img {
+			width: 100%;
+	}
+	.connect-with-me {
+		width: 100%;
+		margin: auto;
+		margin-bottom: 
+		}
+
+
+	
+
+	.footer {
+		margin-top: 70px;
+	}
+}
+
+/*
+
+	.navbar {
+		position: static;
+	}
+	
+	#navbar-title {
+		width: 110%;
+		text-align: center;
+		margin-left: -20px;
+	}
+	.connect-with-me .connect-body .img-responsive {
+		width: 18%;
+		float: left;
+		padding: 2px;
+	}
+
+ 	.connect-with-me .connect-body .github-image {
+ 		width: 17%;
+ 	}
+
+	 .connect-with-me .connect-body .github-image:hover {
+		width: 18%;
+		padding: 5px; 
+		margin-top: 1px;
+	}
+
+	#image-row img{
+		width: 100%;
+		margin: 10px 5px;
+	}
+	.image-label {
+		width: 91%;
+		top: 70%;
+		margin-left: 5px;
+	}
+
+}
+
+
+*/
