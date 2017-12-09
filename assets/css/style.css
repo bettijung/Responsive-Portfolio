@@ -348,30 +348,6 @@ body {
 	margin-left:0px;
 	margin-right:0px;
 }
-/*
-.portfolio-image-2 {
-	text-decoration: none;
-	position: relative;
-	width: 49%;
-	z-index: 1;
-	float: left;
-	margin-top:5px;
-	margin-bottom:5px;
-	margin-left:0px;
-	margin-right:0px;
-}
-
-.portfolio-image-3 {
-	text-decoration: none;
-	position: relative;
-	width: 49%;
-	z-index: 1;
-	float: left;
-	margin-top:5px;
-	margin-bottom:5px;
-	margin-left:0px;
-	margin-right:0px;
-}*/
 
 .portfolio-section p {
 	z-index: 2;
@@ -421,7 +397,6 @@ body {
 
 @media screen and (max-width: 980px) {
 
-
 	.header-bar {
 		width: 100;
 	}
@@ -443,7 +418,7 @@ body {
 
 	.header-contact {
 		margin-left: 90%;
-		padding-left: 10px;
+		padding-left: 7px;
 	}
 
 	main {
@@ -461,12 +436,45 @@ body {
 		margin-bottom: 0px;
 	}
 
+	.contact-section {
+		display: block;
+		width: 65%;
+		margin-top: 20px;
+		margin-left: 0%;
+		margin-right: 0%;
+		margin-bottom: 100px;
+		position: relative;
+	}
+
+	.portfolio-section {
+		display: block;
+		width: 65%;
+		margin-top: 20px;
+		margin-left: 0%;
+		margin-bottom: 100px;
+		position: relative;
+		padding-bottom: 20px;
+	}
+
+	.portfolio-image {
+		width: 100%;
+	}
+
+	.portfolio-section img {
+		width: 100%;
+	}
+
+	.portfolio-section p {
+		width: 100%;
+		top: 75%;
+	}
+
 	.connect-with-me {
 		margin-left: 65%;
-		margin-top: 10px;
+		margin-top: 20px;
 	}
+
 }
-	
 
 /*These rules take effect when the browser's width
   is between 768px and 641px.================*/
@@ -507,7 +515,6 @@ body {
 		margin-bottom: 20px;
 	}
 
-	
 	.contact-section {
 		display: block;
 		width: 120%;
@@ -527,16 +534,16 @@ body {
 	}
 
 	.portfolio-image {
-		width: 100%;
+		width: 45%;
+		margin: 2.5% 2.5%;
 	}
 
 	.portfolio-section img {
-		width: 45%;
-		
+		width: 100%;
 	}
 
 	.portfolio-section p {
-		width: 45%;
+		width: 100%;
 		top: 70%;
 	}
 
